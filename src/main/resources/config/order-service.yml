@@ -32,8 +32,8 @@ eureka:
     fetch-registry: true
 rabbitmq:
   exchange:
-    name: order.exchange
-    queue:
-      name: order.queue
-    routing:
-      key: order.tracking
+    name: orders.exchange
+  queue:
+      name: orders.queue
+  routing:
+      key: orders.tracking
